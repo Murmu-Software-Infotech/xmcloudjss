@@ -10,10 +10,51 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{D76AB7DD-2805-4C76-86E2-AF627A860B68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMCloudJSS", "XMCloudJSS", "{BE6BD7EB-C3AA-4DAA-978F-68444F7B8035}"
+	ProjectSection(SolutionItems) = preProject
+		JSSWebsite.txt = JSSWebsite.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header", "Header", "{7A63BDA5-A747-47DA-82F8-058260885B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessSitecoreJSS.Feature.Header", "src\Feature\Header\code\HeadlessSitecoreJSS.Feature.Header.csproj", "{2A527405-16D0-44CF-B477-CAF989CB8470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{F18E0E5E-DB30-44D2-BE04-EBBEFFE36046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessSitecoreJSS.Foundation.Search", "src\Foundation\Search\code\HeadlessSitecoreJSS.Foundation.Search.csproj", "{4DBB4E05-1C37-4576-BC8D-63527063EF7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{F7A7C6E7-421B-4854-B0BA-692301CD1FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessSitecoreJSS.Project.Website", "src\Project\Website\code\HeadlessSitecoreJSS.Project.Website.csproj", "{7A4D19CD-6AB7-4472-A300-0263DBE6ED24}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A527405-16D0-44CF-B477-CAF989CB8470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A527405-16D0-44CF-B477-CAF989CB8470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A527405-16D0-44CF-B477-CAF989CB8470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A527405-16D0-44CF-B477-CAF989CB8470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBB4E05-1C37-4576-BC8D-63527063EF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBB4E05-1C37-4576-BC8D-63527063EF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBB4E05-1C37-4576-BC8D-63527063EF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBB4E05-1C37-4576-BC8D-63527063EF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4D19CD-6AB7-4472-A300-0263DBE6ED24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4D19CD-6AB7-4472-A300-0263DBE6ED24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4D19CD-6AB7-4472-A300-0263DBE6ED24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4D19CD-6AB7-4472-A300-0263DBE6ED24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A63BDA5-A747-47DA-82F8-058260885B4E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2A527405-16D0-44CF-B477-CAF989CB8470} = {7A63BDA5-A747-47DA-82F8-058260885B4E}
+		{F18E0E5E-DB30-44D2-BE04-EBBEFFE36046} = {C9353258-7535-4D3E-B4D4-955B79C67A2B}
+		{4DBB4E05-1C37-4576-BC8D-63527063EF7A} = {F18E0E5E-DB30-44D2-BE04-EBBEFFE36046}
+		{F7A7C6E7-421B-4854-B0BA-692301CD1FAB} = {D76AB7DD-2805-4C76-86E2-AF627A860B68}
+		{7A4D19CD-6AB7-4472-A300-0263DBE6ED24} = {F7A7C6E7-421B-4854-B0BA-692301CD1FAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87C989B9-BCCB-4E8C-8D05-E6597E3CAB87}
