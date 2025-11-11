@@ -1,0 +1,140 @@
+"""
+Product GraphQL Queries
+Query definitions for fetching product data from Sitecore
+"""
+
+query GetProductCatalog($language: String!, $category: String) {
+  productCatalogCollection: search(
+    where: {
+      and: [
+        { name: "_template", value: "ProductCatalog" }
+        { name: "_language", value: $language }
+      ]
+    }
+    first: 1
+  ) {
+    results {
+      id
+      name
+      field(name: "heading") {
+        value
+      }
+      field(name: "description") {
+        value
+      }
+    }
+  }
+}
+
+query GetProductsByCategory($language: String!, $category: String!) {
+  productsCollection: search(
+    where: {
+      and: [
+        { name: "_template", value: "Product" }
+        { name: "_language", value: $language }
+        { name: "category", value: $category }
+      ]
+    }
+    first: 50
+  ) {
+    results {
+      id
+      name
+      field(name: "name") {
+        value
+      }
+      field(name: "description") {
+        value
+      }
+      field(name: "price") {
+        value
+      }
+      field(name: "category") {
+        value
+      }
+    }
+  }
+}
+
+query GetProductDetail($language: String!, $productId: String!) {
+  product: item(path: $productId) {
+    id
+    name
+    field(name: "name") {
+      value
+    }
+    field(name: "description") {
+      value
+    }
+    field(name: "price") {
+      value
+    }
+    field(name: "category") {
+      value
+    }
+    field(name: "sku") {
+      value
+    }
+    field(name: "inStock") {
+      value
+    }
+    field(name: "rating") {
+      value
+    }
+    field(name: "image") {
+      value
+    }
+  }
+}
+
+query GetPersonalizationContext($language: String!) {
+  context: item(path: "/sitecore/personalization/contexts") {
+    id
+    field(name: "userCategory") {
+      value
+    }
+    field(name: "previousPurchases") {
+      targetItems {
+        id
+        name
+      }
+    }
+  }
+}
+
+query SearchProducts(
+  $language: String!
+  $keyword: String
+  $category: String
+  $minPrice: Float
+  $maxPrice: Float
+  $inStock: Boolean
+) {
+  searchResults: search(
+    where: {
+      and: [
+        { name: "_template", value: "Product" }
+        { name: "_language", value: $language }
+      ]
+    }
+    first: 100
+  ) {
+    results {
+      id
+      name
+      field(name: "price") {
+        value
+      }
+      field(name: "category") {
+        value
+      }
+      field(name: "inStock") {
+        value
+      }
+      field(name: "rating") {
+        value
+      }
+    }
+  }
+}
+

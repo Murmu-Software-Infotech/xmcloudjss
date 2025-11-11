@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'nprogress/nprogress.css';
 import 'assets/app.css';
 import { ThemeProvider } from 'src/context/ThemeContext';
+import { PersonalizationProvider } from 'src/context/PersonalizationContext';
 
 NProgress.configure({ showSpinner: false, trickleSpeed: 100 });
 
@@ -33,7 +34,9 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
       */}
       <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
         <ThemeProvider>
-          <Component {...rest} />
+          <PersonalizationProvider>
+            <Component {...rest} />
+          </PersonalizationProvider>
         </ThemeProvider>
       </I18nProvider>
     </>
