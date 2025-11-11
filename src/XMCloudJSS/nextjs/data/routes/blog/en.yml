@@ -2,6 +2,9 @@ fields:
   pageTitle: Our Blog
 template: page
 placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
   jss-main:
     - componentName: Blog
       fields:
@@ -60,3 +63,6 @@ placeholders:
                 value:
                   href: "/blog/ai-software-development"
                   text: "Learn More"
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml
