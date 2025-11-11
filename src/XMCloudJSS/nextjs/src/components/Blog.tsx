@@ -113,9 +113,6 @@ const Blog = ({ fields }: BlogProps): JSX.Element => {
   const currentLanguage = sitecoreContext?.language || 'en';
 
 console.log(currentLanguage);
-
-
- console.log("This is ................", fields);
   const blogItems = Array.isArray(fields.blogs) 
     ? fields.blogs 
     : fields.blogs?.targetItems || [];

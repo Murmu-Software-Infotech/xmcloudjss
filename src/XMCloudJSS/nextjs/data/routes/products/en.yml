@@ -1,0 +1,13 @@
+fields:
+  pageTitle: Products Page
+template: page
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
+  jss-main:
+    - componentName: Products
+     
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml

@@ -6,6 +6,7 @@ placeholders:
     - id: header-default
       $ref: /data/component-content/Header/en.yml
   jss-main:
+    - componentName: Products
     - componentName: AboutUs
       fields:
         title: "About Us"

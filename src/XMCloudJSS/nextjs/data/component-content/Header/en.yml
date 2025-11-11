@@ -17,6 +17,11 @@ fields:
         link:
           href: /about
           text: About
+    - displayName: Product Link
+      fields:
+        link:
+          href: /products
+          text: Products
     - displayName: Blog Link
       fields:
         link:
