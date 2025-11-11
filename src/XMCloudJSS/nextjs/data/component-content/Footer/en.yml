@@ -1,0 +1,80 @@
+id: footer-default
+componentName: Footer
+fields:
+  quickLinksTitle:
+    value: Quick Links
+  quickLinks:
+    - fields:
+        linkText:
+          value: About Us
+        linkUrl:
+          value:
+            href: /about-us
+            text: About Us
+    - fields:
+        linkText:
+          value: Terms & Conditions
+        linkUrl:
+          value:
+            href: /terms-conditions
+            text: Terms & Conditions
+    - fields:
+        linkText:
+          value: Privacy Policy
+        linkUrl:
+          value:
+            href: /privacy-policy
+            text: Privacy Policy
+    - fields:
+        linkText:
+          value: Contact Us
+        linkUrl:
+          value:
+            href: /contact
+            text: Contact Us
+  contactTitle:
+    value: Contact Us
+  phone:
+    value: "+012 (345) 6789"
+  email:
+    value: support@gmail.com
+  address1:
+    value: Broklyn Street USA
+  address2:
+    value: Newyork, USA
+  latestBlogTitle:
+    value: Latest Blog
+  blogPosts:
+    - fields:
+        title:
+          value: All the Lorem Ipsum generators...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog1.jpg
+            alt: Team meeting
+        excerpt:
+          value: All the Lorem Ipsum generators...
+    - fields:
+        title:
+          value: Many desktop publishing packag...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog2.jpg
+            alt: Person with camera
+        excerpt:
+          value: Many desktop publishing packag...
+    - fields:
+        title:
+          value: Lorem Ipsum has been the indus...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog3.jpg
+            alt: Person at desk
+        excerpt:
+          value: Lorem Ipsum has been the indus...

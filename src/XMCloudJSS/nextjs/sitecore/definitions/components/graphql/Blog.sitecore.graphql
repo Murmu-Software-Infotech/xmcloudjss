@@ -1,0 +1,60 @@
+query BlogQuery($datasource: String!, $language: String!) {
+  datasource: item(path: $datasource, language: $language) {
+    id
+    name
+    
+    ...on Blog {
+      heading {
+        jsonValue
+        value
+      }
+      subheading {
+        jsonValue
+        value
+      }
+      blogs {
+        ...on ContentListField {
+          targetItems {
+            id
+            name
+            ...on BlogItem {
+              image {
+                jsonValue
+                value {
+                  src
+                  alt
+                  width
+                  height
+                }
+              }
+              category {
+                jsonValue
+                value
+              }
+              date {
+                jsonValue
+                value
+              }
+              title {
+                jsonValue
+                value
+              }
+              excerpt {
+                jsonValue
+                value
+              }
+              link {
+                jsonValue
+                value {
+                  href
+                  text
+                  target
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

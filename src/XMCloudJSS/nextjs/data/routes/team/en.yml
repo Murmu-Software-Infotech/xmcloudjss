@@ -1,0 +1,20 @@
+fields:
+  pageTitle: Our Team
+template: page
+placeholders:
+  jss-main:
+    - componentName: TeamMember
+      fields:
+        name: "John Doe"
+        role: "Senior Developer"
+        bio: "<p>John is an experienced developer with over 10 years of experience in web development.</p>"
+    - componentName: TeamMember
+      fields:
+        name: "Jane Smith"
+        role: "UX Designer"
+        bio: "<p>Jane is a talented designer with a passion for creating beautiful and user-friendly interfaces.</p>"
+    - componentName: TeamMember
+      fields:
+        name: "Rohan Smith"
+        role: "UX UI Designer"
+        bio: "<p>Rohan is a talented designer with a passion for creating beautiful and user-friendly interfaces.</p>"

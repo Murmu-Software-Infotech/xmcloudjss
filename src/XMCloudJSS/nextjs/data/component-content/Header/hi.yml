@@ -1,0 +1,34 @@
+id: header-hi
+displayName: डिफ़ॉल्ट हेडर
+componentName: Header
+fields:
+  title: TheProperty
+  logo:
+    src: /data/media/img/sc_logo.png
+    alt: TheProperty लोगो
+  links:
+    - displayName: होम लिंक
+      fields:
+        link:
+          href: /hi
+          text: होम
+    - displayName: हमारे बारे में लिंक
+      fields:
+        link:
+          href: /hi/about
+          text: हमारे बारे में
+    - displayName: ब्लॉग लिंक
+      fields:
+        link:
+          href: /hi/blog
+          text: ब्लॉग
+    - displayName: सेवाएं लिंक
+      fields:
+        link:
+          href: /hi/services
+          text: सेवाएं
+    - displayName: संपर्क लिंक
+      fields:
+        link:
+          href: /hi/contact
+          text: संपर्क

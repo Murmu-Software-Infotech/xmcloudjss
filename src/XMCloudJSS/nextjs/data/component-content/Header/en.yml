@@ -1,0 +1,34 @@
+id: header-default
+displayName: Default Header
+componentName: Header
+fields:
+  title: TheProperty
+  logo:
+    src: /data/media/img/sc_logo.png
+    alt: TheProperty Logo
+  links:
+    - displayName: Home Link
+      fields:
+        link:
+          href: /
+          text: Home
+    - displayName: About Link
+      fields:
+        link:
+          href: /about
+          text: About
+    - displayName: Blog Link
+      fields:
+        link:
+          href: /blog
+          text: Blog
+    - displayName: Services Link
+      fields:
+        link:
+          href: /services
+          text: Services
+    - displayName: Contact Link
+      fields:
+        link:
+          href: /contact
+          text: Contact

@@ -1,0 +1,10 @@
+id: graphic-design-service
+name: Graphic Design
+templateName: Service-Item
+fields:
+  icon: "bi bi-palette"
+  title: Graphic Design
+  link:
+    value:
+      href: "/services/graphic-design"
+      text: "Learn More"

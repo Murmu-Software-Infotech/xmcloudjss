@@ -1,0 +1,10 @@
+id: web-development-service
+name: Web Development
+templateName: Service-Item
+fields:
+  icon: "bi bi-code-slash"
+  title: Web Development
+  link:
+    value:
+      href: "/services/web-development"
+      text: "Learn More"

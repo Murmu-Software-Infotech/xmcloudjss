@@ -1,0 +1,62 @@
+fields:
+  pageTitle: हमारा ब्लॉग
+template: page
+placeholders:
+  jss-main:
+    - componentName: Blog
+      fields:
+        subheading: "नवीनतम समाचार"
+        heading: "हमारे नवीनतम लेख पढ़ें"
+        blogs:
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog1.jpg"
+                alt: "लैपटॉप पर मिलकर काम करती टीम"
+              category: "तकनीक"
+              date: "14 नवम्बर, 2021"
+              title: "GitLab CI और Hood के साथ परफॉर्मेंस दृश्यता कैसे बढ़ाएँ"
+              excerpt: "<p>जानें कि GitLab CI और मॉनिटरिंग टूल्स की मदद से अपने CI/CD पाइपलाइन के प्रदर्शन को बेहतर दृश्यता के साथ कैसे सुधारें।</p>"
+              link:
+                value:
+                  href: "/blog/gitlab-ci-performance"
+                  text: "अधिक जानें"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog2.jpg"
+                alt: "आधुनिक कार्यस्थल सेटअप"
+              category: "मनोरंजन"
+              date: "10 नवम्बर, 2021"
+              title: "Next.js के साथ आधुनिक वेब एप्लिकेशन बनाना"
+              excerpt: "<p>Next.js की शक्तिशाली विशेषताओं का अन्वेषण करें और जानें कि यह सर्वर-साइड रेंडरिंग के साथ आधुनिक वेब विकास में कैसे क्रांति ला रहा है।</p>"
+              link:
+                value:
+                  href: "/blog/nextjs-applications"
+                  text: "अधिक जानें"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog3.jpg"
+                alt: "कॉर्पोरेट मीटिंग"
+              category: "कॉर्पोरेट"
+              date: "5 नवम्बर, 2021"
+              title: "रिमोट वर्क में प्रभावी टीम सहयोग"
+              excerpt: "<p>जानें कि दुनिया भर में वितरित टीमों के साथ काम करते समय उत्पादकता और सहयोग कैसे बनाए रखें।</p>"
+              link:
+                value:
+                  href: "/blog/remote-collaboration"
+                  text: "अधिक जानें"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog4.jpg"
+                alt: "प्रौद्योगिकी नवाचार"
+              category: "तकनीक"
+              date: "28 अक्टूबर, 2021"
+              title: "सॉफ्टवेयर डेवलपमेंट में AI का भविष्य"
+              excerpt: "<p>कृत्रिम बुद्धिमत्ता कोडिंग के तरीके को बदल रही है। जानें कि कौन से नवीनतम AI टूल्स डेवलपमेंट क्षेत्र को बदल रहे हैं।</p>"
+              link:
+                value:
+                  href: "/blog/ai-software-development"
+                  text: "अधिक जानें"

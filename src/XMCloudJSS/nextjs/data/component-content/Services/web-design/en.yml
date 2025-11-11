@@ -1,0 +1,10 @@
+id: web-design-service
+name: Web Design
+templateName: Service-Item
+fields:
+  icon: "bi bi-brush"
+  title: Web Design
+  link:
+    value:
+      href: "/services/web-design"
+      text: "Learn More"

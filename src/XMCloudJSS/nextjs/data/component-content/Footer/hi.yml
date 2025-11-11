@@ -1,0 +1,80 @@
+id: footer-default
+componentName: Footer
+fields:
+  quickLinksTitle:
+    value: त्वरित लिंक
+  quickLinks:
+    - fields:
+        linkText:
+          value: हमारे बारे में
+        linkUrl:
+          value:
+            href: /about-us
+            text: हमारे बारे में
+    - fields:
+        linkText:
+          value: नियम और शर्तें
+        linkUrl:
+          value:
+            href: /terms-conditions
+            text: नियम और शर्तें
+    - fields:
+        linkText:
+          value: गोपनीयता नीति
+        linkUrl:
+          value:
+            href: /privacy-policy
+            text: गोपनीयता नीति
+    - fields:
+        linkText:
+          value: हमसे संपर्क करें
+        linkUrl:
+          value:
+            href: /contact
+            text: हमसे संपर्क करें
+  contactTitle:
+    value: संपर्क करें
+  phone:
+    value: "+012 (345) 6789"
+  email:
+    value: support@gmail.com
+  address1:
+    value: ब्रुकलिन स्ट्रीट, अमेरिका
+  address2:
+    value: न्यूयॉर्क, अमेरिका
+  latestBlogTitle:
+    value: नवीनतम ब्लॉग
+  blogPosts:
+    - fields:
+        title:
+          value: सभी Lorem Ipsum जनरेटर...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog1.jpg
+            alt: टीम मीटिंग
+        excerpt:
+          value: सभी Lorem Ipsum जनरेटर...
+    - fields:
+        title:
+          value: कई डेस्कटॉप पब्लिशिंग पैकेज...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog2.jpg
+            alt: कैमरे के साथ व्यक्ति
+        excerpt:
+          value: कई डेस्कटॉप पब्लिशिंग पैकेज...
+    - fields:
+        title:
+          value: Lorem Ipsum उद्योग का मानक रहा है...
+        date:
+          value: 2021-11-14T00:00:00Z
+        image:
+          value:
+            src: /data/media/img/blog3.jpg
+            alt: डेस्क पर व्यक्ति
+        excerpt:
+          value: Lorem Ipsum उद्योग का मानक रहा है...

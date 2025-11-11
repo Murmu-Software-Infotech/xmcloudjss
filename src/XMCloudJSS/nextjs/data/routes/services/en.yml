@@ -1,0 +1,25 @@
+fields:
+  pageTitle: Services
+template: page
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
+  jss-main:
+    - componentName: Services
+      fields:
+        subheading: Company Services
+        heading: We Provide Exclusive Service
+        services:
+          - id: web-design-service
+            ref: /Services/web-design
+          - id: web-development-service
+            ref: /Services/web-development
+          - id: graphic-design-service
+            ref: /Services/graphic-design
+          - id: mobile-apps-service
+            ref: /Services/mobile-apps
+
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml

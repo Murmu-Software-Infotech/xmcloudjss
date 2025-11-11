@@ -1,0 +1,10 @@
+id: mobile-apps-service
+name: Mobile Apps
+templateName: Service-Item
+fields:
+  icon: "bi bi-phone"
+  title: Mobile Apps
+  link:
+    value:
+      href: "/services/mobile-apps"
+      text: "Learn More"

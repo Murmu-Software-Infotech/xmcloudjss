@@ -1,0 +1,29 @@
+id: default-about-us
+name: Default About Us
+templateName: AboutUs
+fields:
+  topLabel: About Us
+  title: Professional Business Guidance Agency
+  description: |
+    <p>Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam raperiaeaque ipsa quae ab illo inventore veritatis et quasi</p>
+    <p>Doloremque laudantium, totam raperiaeaque ipsa quae ab illo inventore veritatis et quasi</p>
+  image:
+    value:
+      src: "/about-person.jpg"
+      alt: "Business Professional"
+      width: 600
+      height: 700
+  features:
+    - id: feature-1
+      ref: /AboutUs/Features/feature1
+    - id: feature-2
+      ref: /AboutUs/Features/feature2
+    - id: feature-3
+      ref: /AboutUs/Features/feature3
+    - id: feature-4
+      ref: /AboutUs/Features/feature4
+  ctaText: Learn More
+  ctaLink:
+    value:
+      href: "/about"
+      text: "Learn More"

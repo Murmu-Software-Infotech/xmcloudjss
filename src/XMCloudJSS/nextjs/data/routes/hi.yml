@@ -1,0 +1,8 @@
+name: home
+displayName: होम पेज
+placeholders:
+  jss-main:
+    - componentName: ContentBlock
+      fields:
+        heading: स्वागत है
+        content: यह आपकी हिंदी होमपेज सामग्री है।

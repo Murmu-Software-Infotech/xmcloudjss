@@ -1,0 +1,23 @@
+fields:
+  pageTitle: About Us
+template: page
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
+  jss-main:
+    - componentName: AboutUs
+      fields:
+        title: "About Us"
+        heading: "Building Excellence Through Innovation and Integrity"
+        subheading: "Find Out More About Us"
+        content: |
+          <p>We are here to help you transform your business with the latest tech solutions. Our team of experts is dedicated to providing innovative solutions that drive your success.</p>
+          <p>With years of experience and a passion for excellence, we deliver cutting-edge solutions that help our clients stay ahead in today's competitive market.</p>
+        image:
+          src: "/data/media/img/aboutusimg.jpg"
+          alt: "About Our Company"
+
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml

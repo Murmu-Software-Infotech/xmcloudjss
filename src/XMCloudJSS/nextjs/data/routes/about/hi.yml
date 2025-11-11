@@ -1,0 +1,22 @@
+fields:
+  pageTitle: हमारे बारे में
+template: page
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/hi.yml
+  jss-main:
+    - componentName: AboutUs
+      fields:
+        title: "हमारे बारे में"
+        heading: "नवाचार और ईमानदारी के माध्यम से उत्कृष्टता का निर्माण"
+        subheading: "हमारे बारे में और जानें"
+        content: |
+          <p>हम यहां नवीनतम तकनीकी समाधानों के साथ आपके व्यवसाय को बदलने में मदद करने के लिए हैं। हमारी विशेषज्ञों की टीम आपके सफलता को बढ़ाने वाले अभिनव समाधानों को प्रदान करने के लिए समर्पित है।</p>
+          <p>वर्षों के अनुभव और उत्कृष्टता के प्रति जुनून के साथ, हम अत्याधुनिक समाधान प्रदान करते हैं जो हमारे ग्राहकों को आज के प्रतिस्पर्धी बाजार में आगे रहने में मदद करते हैं।</p>
+        image:
+          src: "/data/media/img/aboutusimg.jpg"
+          alt: "हमारी कंपनी के बारे में"
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/hi.yml

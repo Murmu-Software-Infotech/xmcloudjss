@@ -1,0 +1,11 @@
+# This is a shared layout definition that can be inherited by other routes
+id: shared-layout
+
+placeholders:
+  jss-header:
+    - id: shared-header
+      componentName: Header
+      # 👇 Use the current language dynamically
+      dataSource: "/data/component-content/Header/{{language}}.yml"
+  jss-main: []
+  jss-footer: []

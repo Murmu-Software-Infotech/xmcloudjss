@@ -1,0 +1,62 @@
+fields:
+  pageTitle: Our Blog
+template: page
+placeholders:
+  jss-main:
+    - componentName: Blog
+      fields:
+        subheading: "Latest News"
+        heading: "Read Our Latest Articles"
+        blogs:
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog1.jpg"
+                alt: "Team collaborating on laptop"
+              category: "Tech"
+              date: "November 14, 2021"
+              title: "How Performance Visiblety With GitLab CI And Hood"
+              excerpt: "<p>Discover how to improve your CI/CD pipeline performance with GitLab CI and monitoring tools for better visibility.</p>"
+              link:
+                value:
+                  href: "/blog/gitlab-ci-performance"
+                  text: "Learn More"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog2.jpg"
+                alt: "Modern workspace setup"
+              category: "Entertainment"
+              date: "November 10, 2021"
+              title: "Building Modern Web Applications with Next.js"
+              excerpt: "<p>Explore the powerful features of Next.js and how it revolutionizes modern web development with server-side rendering.</p>"
+              link:
+                value:
+                  href: "/blog/nextjs-applications"
+                  text: "Learn More"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog3.jpg"
+                alt: "Corporate meeting"
+              category: "Corporate"
+              date: "November 5, 2021"
+              title: "Effective Team Collaboration in Remote Work"
+              excerpt: "<p>Learn best practices for maintaining productivity and collaboration when working with distributed teams across the globe.</p>"
+              link:
+                value:
+                  href: "/blog/remote-collaboration"
+                  text: "Learn More"
+          - template: Blog-Item
+            fields:
+              image:
+                src: "/data/media/img/blog4.jpg"
+                alt: "Technology innovation"
+              category: "Tech"
+              date: "October 28, 2021"
+              title: "The Future of AI in Software Development"
+              excerpt: "<p>Artificial Intelligence is transforming how we write code. Discover the latest AI tools that are changing the development landscape.</p>"
+              link:
+                value:
+                  href: "/blog/ai-software-development"
+                  text: "Learn More"
