@@ -1,0 +1,17 @@
+# SimpleFAQ.sitecore.graphql
+query SimpleFAQQuery($datasource: String!, $language: String!) {
+  datasource: item(path: $datasource, language: $language) {
+    id
+    name
+    ...on SimpleFAQQ {
+      question {
+        jsonValue
+        value
+      }
+      answer {
+        jsonValue
+        value
+      }
+    }
+  }
+}

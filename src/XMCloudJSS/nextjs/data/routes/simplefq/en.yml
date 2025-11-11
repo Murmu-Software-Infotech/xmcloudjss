@@ -1,0 +1,15 @@
+fields:
+  pageTitle: Simple FAQ Page
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
+  jss-main:
+    - componentName: SimpleFAQQ
+      fields:
+        question: "What is Sitecore JSS?"
+        answer: "<p>Sitecore JSS allows you to build headless applications using Next.js.</p>"
+
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml

@@ -67,7 +67,7 @@ const GraphQLIntegratedDemo = (props: GraphQlIntegratedDemoProps): JSX.Element =
   // Query results in integrated GraphQL replace the normal `fields` data
   // i.e. with { data, }
   const { datasource, contextItem } = props.fields.data;
-
+  console.log("This is datasource ", datasource);
   return (
     <div data-e2e-id="graphql-integrated">
       <h2>GraphQL Integrated Demo</h2>

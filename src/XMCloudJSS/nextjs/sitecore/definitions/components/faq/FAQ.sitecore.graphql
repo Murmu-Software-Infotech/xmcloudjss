@@ -1,0 +1,25 @@
+# FAQ.sitecore.graphql
+query FAQQuery($datasource: String!, $contextItem: String!, $language: String!) {
+  datasource: item(path: $datasource, language: $language) {
+    id
+    name
+    ...on FAQ {
+      question {
+        jsonValue
+        value
+      }
+      answer {
+        jsonValue
+        value
+      }
+      # optional: category, sortOrder for future list version
+    }
+  }
+
+  contextItem: item(path: $contextItem, language: $language) {
+    id
+    ...on AppRoute {
+      pageTitle { value }
+    }
+  }
+}

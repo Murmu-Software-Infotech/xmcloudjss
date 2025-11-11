@@ -19,7 +19,7 @@ placeholders:
             ref: /Services/graphic-design
           - id: mobile-apps-service
             ref: /Services/mobile-apps
-
+    - componentName: AboutUs 
   jss-footer:
     - id: footer-default
       $ref: /data/component-content/Footer/en.yml

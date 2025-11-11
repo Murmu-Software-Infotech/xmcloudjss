@@ -1,0 +1,20 @@
+fields:
+  pageTitle: FAQ Page
+template: page
+
+placeholders:
+  jss-header:
+    - id: header-default
+      $ref: /data/component-content/Header/en.yml
+
+  jss-main:
+    - componentName: FAQ
+      fields:
+        question:
+          value: "What is Sitecore JSS?"
+        answer:
+          value: "<p>Sitecore JSS allows you to build headless apps using modern JavaScript frameworks like Next.js and still manage content in Sitecore.</p>"
+
+  jss-footer:
+    - id: footer-default
+      $ref: /data/component-content/Footer/en.yml
