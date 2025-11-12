@@ -1,0 +1,39 @@
+fields:
+  pageTitle:
+    value: DemoGraphQl Page Title
+placeholders:
+  jss-main:
+    - componentName: DemoGraphQl
+      fields:
+        heading: DemoGraphQl Title
+        content: >
+          <p>This is Demo GraphQl Title. <a href="/graphql">Back to GraphQL
+          route</a></p>
+        # data:
+        #   datasource:
+        #     id: demo123
+        #     name: Demo GraphQL (Mocked)
+        #     sample1:
+        #       value: Hello from YAML mock data
+        #       jsonValue:
+        #         value: Hello from YAML mock data
+        #     sample2:
+        #       text: Click Me
+        #       url: /demo
+        #       target: _blank
+        #       definition:
+        #         type: General Link
+        #         shared: false
+        #       jsonValue:
+        #         value:
+        #           href: /demo
+        #           linktype: internal
+        #           text: Demo Link
+        #           target: _blank
+        #           url: /demo
+        #   contextItem:
+        #     id: context123
+        #     pageTitle:
+        #       value: Mock Context Page
+        #     children:
+        #       results: []

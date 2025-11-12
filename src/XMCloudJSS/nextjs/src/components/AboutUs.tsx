@@ -29,7 +29,7 @@ type AboutUsProps = ComponentProps & {
 
 const AboutUs = (props: AboutUsProps): JSX.Element => {
 //   console.log('Full AboutUs props:', JSON.stringify(props, null, 2));
-  
+  console.log("This is AboutUs Props", props);
   // Get fields either from datasource or direct fields
   const fields = props.fields || {};
   

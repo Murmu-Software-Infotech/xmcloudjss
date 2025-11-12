@@ -67,16 +67,16 @@ const GraphQLIntegratedDemo = (props: GraphQlIntegratedDemoProps): JSX.Element =
   // Query results in integrated GraphQL replace the normal `fields` data
   // i.e. with { data, }
   const { datasource, contextItem } = props.fields.data;
-  console.log("This is datasource ", datasource);
+  console.log("This is datasource ", props);
   return (
     <div data-e2e-id="graphql-integrated">
-      <h2>GraphQL Integrated Demo</h2>
+      {/* <h2>GraphQL Integrated Demo</h2>
 
       <p>
         Integrated GraphQL executes GraphQL queries within the Layout Service endpoint, and merges
         the query results into the Layout Service result JSON. The query results can be seen by
         inspecting the Layout Service response.
-      </p>
+      </p> */}
 
       {datasource && (
         <div>
